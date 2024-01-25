@@ -80,7 +80,7 @@ See the [modeling the boards and ships](#modeling-the-board-and-ships) section f
 For this example, we will be using sample valid inputs.
 Initialize a new board as Player 1 with valid ship inputs and Player 2's address: `leo run initialize_board ship_5_bitstring ship_4_bitstring ship_3_bitstring ship_2_bitstring player_2_address`
 
-**Run**
+!*Run**
 ```
 leo run initialize_board 34084860461056u64 551911718912u64 7u64 1157425104234217472u64 aleo1wyvu96dvv0auq9e4qme54kjuhzglyfcf576h0g3nrrmrmr0505pqd6wnry
 ```
@@ -908,3 +908,4 @@ In order to give their next move to their opponent, a player must call the `main
 ## Winning the game
 
 Right now, the way to check when a game has been won is to count the number of hits on your `hits_and_misses` component on your `board_state` record. Once you have 14 hits, you've won the game.
+ 
